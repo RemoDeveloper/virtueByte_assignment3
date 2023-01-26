@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f5f1ee;
+    background-image: url(/bg1.jpg);
+}
+.navbar{
+    background-color: #6484C1;
+    
+}
+.navbar li{
+    float: right;
+    list-style: none;
+    margin: 13px 20px;
+    font-size: 20px;
+    
+}
+.navbar ul{
+    overflow: auto;
+    padding: 0px 30px;
+}
+.navbar a{
+    cursor: pointer;
+    text-decoration: none;
+}
+.navbar logo{
+    /* width: 200px;
+    height: 70px; */
+    font-size: 40px;
+}
+.submit{
+    margin-right: 20px;
+    block-size: 35px;
+    margin-right: 30%;
+    margin-left: 70%;
+    max-width: 50%;
+    margin-top: -10px;
+}
+
+.submit input[type=text] {
+    padding: 10px; 
+    border:2px solid #ccc; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: fit-content;
+}
+
+.submit input[type=text]:focus {
+    border-color:#333;
+    margin-top: 10px;
+    width: fit-content;
+}
+
+.submit input[type=textarea] {
+    padding: 7px;
+    width: fit-content; 
+    border:2px solid #ccc; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    margin-top: 8px;
+}
+
+.submit input[type=submit] {
+    padding:10px 20px; 
+    background:rgb(194, 186, 186); 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+    margin-top: 10px;
+    width: fit-content;
+}
+
+
+.headings{
+    block-size: 25px;
+    margin-right: 20px;
+    margin-top: 15px;
+    text-align: left;
+    margin-left: 15%;
+    block-size: 50%;
+    margin-bottom: 15px;
+    
+    display: inline-block;
+    
+    }
+    .headings h2{
+        margin-top: 40px;
+    }
+    h1{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size:xx-large;
+        font-style: italic;
+    }
